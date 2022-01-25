@@ -3,6 +3,7 @@ import discord, asyncio, datetime, pytz
 from discord.embeds import Embed
 import random
 import ffmpeg
+import os
 
 import time
 import asyncio
@@ -12,7 +13,6 @@ from selenium import webdriver
 from discord import client
 from discord import colour
 from discord import activity
-token = "ODU4NjQ3MTIwNjU4MzAwOTY4.YNhLcg.n9R6KsN7PSAuBg6YAPQki_07cJ8"
 client = discord.Client()
 
 @client.event
@@ -180,5 +180,6 @@ async def on_message(message):
         await message.channel.send(f'🏓퐁! 일줄 알았나 인간? `{str(round(la * 1000))}ms`임')
 
 
+access_token = os.envron["BOT_TOKEN"]
+client.run(access_token)
 
-client.run(token)
