@@ -1,1 +1,13 @@
 discord.py==0.16.12
+from re import A
+import discord, asyncio, datetime, pytz
+from discord.embeds import Embed
+import random
+import ffmpeg
+import time
+import asyncio
+from selenium.webdriver.chrome.options import *
+from selenium import webdriver
+from discord import client
+from discord import colour
+from discord import activity
