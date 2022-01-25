@@ -12,7 +12,7 @@ from selenium import webdriver
 from discord import client
 from discord import colour
 from discord import activity
-token = "ODU4NjQ3MTIwNjU4MzAwOTY4.YNhLcg.PdBvro344tLzZsBzvTRWu5Dq1iQ"
+token = "ODU4NjQ3MTIwNjU4MzAwOTY4.YNhLcg.n9R6KsN7PSAuBg6YAPQki_07cJ8"
 client = discord.Client()
 
 @client.event
